@@ -17,7 +17,7 @@ class Hero
   end
 
   def hero_info 
-    "#{@name} здоровье:#{@health} "
+    "#{@name} has a health #{@health}"
   end
 end 
 
