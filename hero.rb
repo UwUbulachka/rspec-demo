@@ -1,6 +1,6 @@
 class Hero
-  def initialize(name, health=100)
-    @name = name.capitalize
+  def initialize(name, health=100) #появляются параметры
+    @name = name.capitalize #на этой строке интиализируются переменные глобальные, что бы можно было ими пользоваться в других ф_циях
     @health = health
   end
   
@@ -21,8 +21,8 @@ class Hero
   end
 end 
 
-# hero = Hero.new 'mike'
-# puts hero.name
+# hero = Hero.new 'mike' устанавливается переменная hero сооздается персонаж  по имени MIke
+# puts hero.name вызывает переменную hero и вызывает def name
 # puts hero.power_up
 # puts hero.power_down
 # puts hero.hero_info
